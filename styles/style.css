@@ -4,7 +4,7 @@
 
 body {
   width: 1440px;
-  height: 2844px;
+  min-height: 2744px;
   margin: 0 auto;
   padding: 0;
 }
@@ -17,7 +17,6 @@ body {
   width: 1340px;
   height: 109px;
   margin: 92px auto;
-
 }
 
 .header__menu {
@@ -79,7 +78,6 @@ body {
 .address {
   display: flex;
   justify-content: end;
-
 }
 
 .address > p a {
@@ -106,7 +104,7 @@ body {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 605px 152px;
-  align-content:center;
+  align-content: center;
   background-image: url(/images/cover.jpg);
   background-position: center;
   background-size: cover;
@@ -135,11 +133,10 @@ body {
   grid-template-rows: 115px 100px 100px;
   align-content: center;
   gap: 20px;
-
 }
 
 .title-f {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 100px;
   font-style: normal;
@@ -149,7 +146,7 @@ body {
   text-transform: uppercase;
 }
 .title-s {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Raleway;
   font-size: 100px;
@@ -160,7 +157,7 @@ body {
   text-transform: uppercase;
 }
 .title-p {
-  color: #FFF;
+  color: #fff;
   text-align: right;
   font-family: Raleway;
   font-size: 100px;
@@ -181,15 +178,15 @@ body {
 
 .cover__description {
   display: flex;
-  justify-content:end;
-  align-items:center;
+  justify-content: end;
+  align-items: center;
   z-index: 1;
 }
 
 .cover__description-text {
   display: inline-block;
   word-spacing: 18px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Raleway;
   font-size: 22px;
@@ -197,16 +194,16 @@ body {
   font-weight: 400;
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
-  align-content:center;
+  align-content: center;
 }
 
 .bet-button {
   width: 257px;
   height: 52px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   margin-right: 50px;
   margin-left: 78px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Raleway;
   font-size: 22px;
@@ -250,7 +247,6 @@ body {
 }
 
 .lots__card-list-item {
-
 }
 
 .lots__card-list li a {
@@ -280,7 +276,7 @@ body {
   width: 430px;
   height: 450px;
   position: absolute;
-  z-index:0;
+  z-index: 0;
 }
 
 .card-text {
@@ -294,12 +290,11 @@ body {
   grid-template-rows: 1fr 3fr;
   align-content: end;
   justify-content: end;
-  
 }
 
 .card-text-h {
   margin: 0;
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 22px;
   font-style: normal;
@@ -312,7 +307,7 @@ body {
 }
 
 .card-text-p {
-  color: #FFF;
+  color: #fff;
   font-family: Raleway;
   font-size: 20px;
   font-style: normal;
@@ -358,7 +353,6 @@ body {
   color: #000;
   border-bottom: 1px #000 solid;
 }
-
 
 /* Секция 3 */
 
@@ -428,12 +422,9 @@ body {
 
 .footer {
   width: 1340px;
-  height: 97px; 
+  height: 97px;
   display: flex;
   justify-content: space-between;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr; */
   margin: 0 auto;
   margin-bottom: 90px;
 }
@@ -443,7 +434,6 @@ body {
 }
 
 .footer__menu {
-
 }
 
 .footer__menu-list {
@@ -461,7 +451,6 @@ body {
 }
 
 .footer__menu-list-item {
-
 }
 
 .footer__menu-link_active {
@@ -474,7 +463,6 @@ body {
 }
 
 .footer__social {
-
   width: 240px;
   height: 48px;
   display: flex;
@@ -482,11 +470,9 @@ body {
 }
 
 .footer__social-list-item {
-
 }
 
 .footer__social-link {
-
 }
 
 .footer__social-icon {
