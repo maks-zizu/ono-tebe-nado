@@ -1,10 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  width: 1440px;
-  min-height: 2744px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0;
 }
@@ -12,11 +7,9 @@ body {
 .header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
   align-content: center;
   width: 1340px;
-  height: 109px;
-  margin: 92px auto;
+  margin: 94px auto;
 }
 
 .header__menu {
@@ -45,7 +38,7 @@ body {
 .header__link_active {
   text-decoration: none;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -54,7 +47,7 @@ body {
 
 .header__link {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -89,7 +82,7 @@ body {
 .header__address {
   align-self: center;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -100,7 +93,6 @@ body {
 
 .cover {
   width: 1440px;
-  height: 757px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 605px 152px;
@@ -115,7 +107,7 @@ body {
   width: 1440px;
   height: 757px;
   background-color: #000;
-  opacity: 0.6000000238418579;
+  opacity: 0.6;
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -137,7 +129,7 @@ body {
 
 .title-f {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -148,7 +140,7 @@ body {
 .title-s {
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -159,7 +151,7 @@ body {
 .title-p {
   color: #fff;
   text-align: right;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -188,7 +180,7 @@ body {
   word-spacing: 18px;
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -205,7 +197,7 @@ body {
   margin-left: 78px;
   color: #fff;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -229,7 +221,7 @@ body {
   margin-left: 40px;
   margin-bottom: 27px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -239,7 +231,6 @@ body {
 
 .lots__card-list {
   margin: 0;
-  background-color: rgb(205, 248, 255);
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -295,7 +286,7 @@ body {
 .card-text-h {
   margin: 0;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -308,7 +299,7 @@ body {
 
 .card-text-p {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -341,7 +332,7 @@ body {
   margin-left: 40px;
   margin-top: 30px;
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -398,7 +389,7 @@ body {
 
 .about__title {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -409,7 +400,7 @@ body {
 
 .about__text {
   color: #000;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -443,7 +434,7 @@ body {
   margin: 0;
   color: #000;
   text-align: center;
-  font-family: Raleway;
+  font-family: Raleway, 'Arial', 'Helvetica', sans-serif;;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
