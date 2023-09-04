@@ -70,17 +70,11 @@
 }
 
 .header__address_position {
-  display: flex;
-  flex-direction: column;
   max-width: 240px;
 }
 
 .address a {
   text-decoration: none;
-}
-
-.address p {
-  display: inline;
   border-bottom: 1px #000 solid;
 }
 
@@ -241,17 +235,12 @@
 .card {
   position: relative;
   width: 430px;
-  min-height: 450px;
   z-index: 1;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 1fr 3fr;
+  display: flex;
 }
 
 .card-text {
   width: 430px;
-  height: 100%;
-  position: absolute;
   margin: 0 auto;
   padding: 50px 40px;
   z-index: 1;
@@ -405,8 +394,6 @@
 }
 
 .footer__address_position {
-  display: flex;
-  flex-direction: column;
   max-width: 240px;
 }
 
