@@ -1,6 +1,7 @@
 https://github.com/maks-zizu/ono-tebe-nado
 
-# Alt-**Landing page**
+# **Landing page**
+Одностраничный сайт
 
-## Alt-**Задача**
+## **Задача**
 * Верстка с соблюдением требований к правильности и чистоте кода.
